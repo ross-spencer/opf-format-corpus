@@ -77,7 +77,7 @@ a-bad-path
 
 Like the name says, a home for all path related issues.  Long paths, silly characters, and so on.  There may be some issues with GitHub accepting certain names and paths but we'll see.
 
-## /opf-format-corpis/format-corpus/govdocs1-error-pdfs/
+## /opf-format-corpus/format-corpus/govdocs1-error-pdfs/
 
 ### PDF files from Govdocs1 that may cause errors
 
