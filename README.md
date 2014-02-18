@@ -12,6 +12,8 @@ A recent summary of the contents of the repository can be found [here](http://ww
 ##as a corpus for baselining, for enabling re-creation of digital preservation trials and 
 ##experiments without the pollution of files meant as readmes, indexes or github functionality.
 
+##TODO: /office/ /office-examples/ /variations/
+
 How to Contribute
 =================
 
