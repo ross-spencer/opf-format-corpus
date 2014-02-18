@@ -7,6 +7,10 @@ All items, apart from the source code under 'tools', is CC0 licenced unless othe
 
 A recent summary of the contents of the repository can be found [here](http://www.opf-labs.org/format-corpus/tools/coverage/reports/).
 
+##NOTE: This is a remix of the OPF Format Corpus: https://github.com/openplanets/format-corpus
+##The purpose of doing this is to allow the format-corpus portion of the repository to be used
+##as a corpus for baselining, for enabling re-creation of digital preservation trials and 
+##experiments without the pollution of files meant as readmes, indexes or github functionality.
 
 How to Contribute
 =================
