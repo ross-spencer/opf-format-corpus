@@ -542,3 +542,253 @@ Resolution fields and ICC profile were added specifically to demonstrate how the
 [sampleMJ2]:https://github.com/bitsgalore/jp2kMagic/tree/master/sampleImages/Speedway.mj2
 [sampleImages]:https://github.com/bitsgalore/jp2kMagic/tree/master/sampleImages/
 [magic]:https://github.com/bitsgalore/jp2kMagic/tree/master/magic/
+
+## /opf-format-corpus/format-corpus/knowledge-managent/concept-draw/
+
+filename	To Do.cdd
+formatName:	ConceptDraw
+formatVersion:	?
+extensions:	.cdd
+mimeType:	
+mimeTypeAliases:	
+pronomId:	
+xmlNameSpace:	
+creatorTool:	ConceptDraw
+creatorToolUrl:	http://www.conceptdraw.com/
+formatSpecUrl:	
+comments	Created in 2005 with a trial version of ConceptDraw
+
+## /opf-format-corpus/format-corpus/knowledge-managent/mind-manager/
+
+filename	copac-uknuc.mmp
+formatName:	Mind Manager
+formatVersion:	2002
+extensions:	.mmp
+mimeType:	
+mimeTypeAliases:	
+pronomId:	
+xmlNameSpace:	
+creatorTool:	Mind Manager
+creatorToolUrl:	www.mindjet.com
+formatSpecUrl:	
+comments	File created originally on a Win95 machine using Mind Manager 2002
+
+filename	copac-uknuc.xml
+formatName:	Mind Manager XML (2003)
+formatVersion:	
+extensions:	.xml
+mimeType:	
+mimeTypeAliases:	
+pronomId:	
+xmlNameSpace:	
+creatorTool:	Mind Manager
+creatorToolUrl:	
+formatSpecUrl:	
+comments	XML derivative created on a Win XP machine to facilitate migration to NovaMind
+
+filename	copac-uknuc.png
+formatName:	Portable Neytwork Graphics
+formatVersion:	
+extensions:	.png
+mimeType:	
+mimeTypeAliases:	
+pronomId:	
+xmlNameSpace:	
+creatorTool:	Mind Manager
+creatorToolUrl:	
+formatSpecUrl:	
+comments	Image file created as the XML derivative was made
+
+## /opf-format-corpus/format-corpus/knowledge-managent/nova-mind/
+
+### Curation outline 3.nmind
+---
+* mimeType: 
+* mimeTypeAliases:
+* creatorTool: Novamind 4.0
+* creatorToolUrl: http://www.novamind.com/
+
+---
+
+This appears to be a single folder with two files, wrapped up as a tar.gz. If you rename and unpack it you get this:
+
+* NovaMind/Contents.xml
+  * Plain old XML, no schema.
+* NovaMind/fileVersion.txt
+  * Contains the text "4.0"
+  
+### Curation outline 3.opml
+
+---
+* mimeType: text/x-opml
+* mimeTypeAliases: application/xml, text/xml
+* creatorTool: Novamind 4.0
+* creatorToolUrl: http://www.novamind.com/
+
+---
+
+Generated from [Curator outline 3.nmind].
+
+## /opf-format-corpus/format-corpus/pcraster/
+
+### About these files
+Sample PCRaster (CSF) 2 maps.
+
+### License
+All files in this folder: Creative Commons CC0: Public Domain Dedication. See [http://creativecommons.org/publicdomain/zero/1.0/](http://creativecommons.org/publicdomain/zero/1.0/) - To the extent possible under law, Johan van der Knijff has waived all copyright and related or neighboring rights to this work.
+
+## /opf-format-corpus/format-corpus/pdfCabinetOfHorrors/
+
+###The Archivist's PDF Cabinet of Horrors 
+
+
+#### About these files
+Test *PDF* files, created for detecting *PDF* features that are undesired in archival settings. Most of these files were originally created in Microsoft Word 2003, and then converted to *PDF* with Adobe Acrobat Professional 9.5.2. The source Word files are included here as well, but in many cases the *PDFs* required further processing in Acrobat (e.g. embedding videos, attaching files, encryption) so they're probably not that useful.
+
+Exceptions are:
+
+*javascript.pdf*, which was created with Didier Stevens' *make-pdf* tool, which is available here: [http://blog.didierstevens.com/programs/pdf-tools/](http://blog.didierstevens.com/programs/pdf-tools/)
+
+*digitally_signed_3D_Portfolio.pdf*, which was kindly provided by Adobe.
+
+#### Description
+Here's a more detailed description of the files (arranged by feature class(es)):
+
+#####Encryption
+
++ **encryption_openpassword.pdf** - requires password to open the file
++ **encryption_nocopy.pdf** - requires password to copy document contents
++ **encryption_noprinting.pdf** - requires password for printing
++ **encryption_notextaccess.pdf** - requires password to enable text access for screen reader devices for the visually impaired
+
+#####Multimedia
++ **embedded\_video\_avi.pdf** - contains embedded *AVI* movie 
++ **embedded\_video\_quicktime.pdf** - contains embedded *Quicktime* movie
+
+#####Scripts
++ **javascript.pdf** - contains embedded *Javascript*
+
+#####Fonts
++ **text\_only\_fontsNotEmbedded.pdf** - used fonts are not embedded
++ **text\_only\_fontsEmbeddedAll.pdf** - used fonts are embedded
++ **text\_only\_fontsEmbeddedSubset.pdf** - used fonts are embedded as subset
++ **text\_only\_pdfa1b.pdf** - *PDF/A-1a* (with embedded fonts)
++ **test\_fontArialNotEmbedded.pdf** - <del>font *Arial*</del> fonts *Arial* and *Times New Roman*  <del>is</del> are not embedded
+
+
+#####File attachments
++ **fileAttachment.pdf** - contains a document-level file attachment (an oldskool Quattro Pro spreadsheet, no less!) that is defined using an *EmbeddedFiles* entry in the document’s name dictionary
++ **fileAttachment_fileAttachmentAnnotation.pdf** - contains a page-level file attachment that is defined using a *File Attachment Annotation*
+
+#####External references
++ **externalLink.pdf** - contains link to another document
++ **webCapture.pdf** - uses  Web Capture feature for importing text from a website
+
+#####Byte corruption
++ **corruptionOneByteMissing.pdf** - one byte missing from comment line following file header
+ 
+#####Digitally Signed 3D Portfolio
++ **digitally_signed_3D_Portfolio.pdf** - a PDF 1.7 portfolio with multiple sheets, forms and 3D images; one of the sheets is digitally signed
+
+####License
+All files in this folder: Creative Commons CC0: Public Domain Dedication. See [http://creativecommons.org/publicdomain/zero/1.0/](http://creativecommons.org/publicdomain/zero/1.0/)
+
+## /opf-format-corpus/format-corpus/statistica/
+
+### About these files
+Sample Statsoft Statistica files. Created in Statsoft Statistica for Windows, exact version unknown (might be 4 or 5).  
+
+### License
+All files in this folder: Creative Commons CC0: Public Domain Dedication. See [http://creativecommons.org/publicdomain/zero/1.0/](http://creativecommons.org/publicdomain/zero/1.0/) - To the extent possible under law, Johan van der Knijff has waived all copyright and related or neighboring rights to this work.
+
+## /opf-format-corpus/format-corpus/tiff-examples/NANETH_8bpp_grayscale/
+
+---
+* formatName: TIFF (Exchangeable Image File Format (Uncompressed), EXIF Uncompressed Image 2.2 (little-endian, EXIF near BOF))
+* formatVersion: TIFF 6.0
+* extensions: tif, tiff
+* mimeType: image/tiff
+* mimeTypeAliases: 
+* pronomId: x-fmt/387
+* xmlNameSpace: 
+* creatorTool: Adobe Photoshop CS3 Macintosh
+* creatorToolUrl: http://www.adobe.com/support/downloads/detail.jsp?ftpID=3779
+* formatSpecUrl: http://partners.adobe.com/public/developer/tiff/
+
+---
+
+####grayscale_8bpp_wrong_bpptag.tif
+
+Invalid 8 bits per sample grayscale baseline TIFF, defined as 16 bits per sample, 
+showing malformation when rendered.
+Should not validate since it contains several invalid tags, such as "PlanarConfiguration".
+
+ExifTool XML-report included.
+
+Issue:
+http://wiki.opf-labs.org/display/SPR/Valid+and+well-formed+TIFF's+with+scanline+corruption
+Solution:
+http://wiki.opf-labs.org/display/SPR/Solving+TIFF+malformation+using+exiftool
+
+Image courtesy of Dutch digitisation project "Images of the Future":
+http://www.beeldenvoordetoekomst.nl/en/
+License: CC BY-NC-SA 3.0
+http://creativecommons.org/licenses/by-nc-sa/3.0/
+
+## /opf-format-corpus/format-corpus/video/Quicktime/
+
+Apple Quicktime video codecs
+============================
+
+These videos are tests of the various, often proprietary, codecs
+which ship with Quicktime X. Some of these are supported in open-
+source software like ffmpeg, though others (like Apple Intermediate
+Codec) are not.
+
+Two formats were omitted, due to difficulties enticing Quicktime to
+export the test pattern to them: Apple ProRes 4444, and Apple Pixlet
+Video.
+
+Methodology
+===========
+
+These videos were created from an ffmpeg test pattern. The command used
+to create the original raw video was:
+
+`ffmpeg -f lavfi -i testsrc -c:v rawvideo -c:a none -t 1`
+
+The raw video was then encoded using Quicktime 7. Default settings were
+typically used, and "Prepare for Internet Streaming" was disabled. If a
+quality setting was available, the highest option was chosen.
+
+All videos are 320x240 at 25fps for one second with no sound, unless the
+codec imposed a particular resolution or framerate.
+
+If the codec offered an option of interlaced vs progressive, one video
+is provided for each.
+
+License
+=======
+
+These were created using ffmpeg's builtin "testsrc" test pattern, which
+is presumed to be unlicensed. ffmpeg's code is GPLv2 licensed.
+
+Codec-specific notes
+====================
+
+apple-intermediate-codec.mov
+----------------------------
+
+A professional video editing codec, intended as an editing format rather
+than a delivery format. Not supported by ffmpeg.
+
+XDCAM
+-----
+
+The various XDCAM codecs are specific profiles of MPEG-2 used in
+professional video. XDCAM HD is an anamorphic format, while
+XDCAM EX is a full-resolution HD format. XDCAM HD422 is a
+full-resolution format which uses 4:2:2 chroma subsampling instead of
+4:2:0.
+
+
