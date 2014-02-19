@@ -1047,4 +1047,102 @@ License
   this work.
 </p>
 
+## /opf-format-corpus/format-corpus/variations/
 
+Variation Itself - Variations on Lorem Ipsum
+============================================
+
+This set of test documents starts with a simple text file containing some Lorem Ipsum text. This is then used as a basis for generating a series of variations of the same content in different formats.
+
+The idea is to fill a MIME Type tree of formats with various representations of the original text document. Documentation on software and scripts used to generate the images can be stored in the sfw folder, but the notion would be that the most critical data about how the item was created would be held in per-item metadata files under the fmt tree.
+
+## /opf-format-corpus/format-corpus/variations/application/epub+zip/
+
+---
+creatorTool: "Apple Pages 09 4.1 923"
+generatedFrom: text/plain/lorem-ipsum.txt
+---
+
+## /opf-format-corpus/format-corpus/variations/application/msword/
+
+lorem-ipsum.doc.md
+--- 
+creatorTool = "Microsoft Word for Mac 2011 14.2.0 120402"
+generatedFrom = text/plain/lorem-ipsum.txt
+---
+
+lorem-ipsum-pages-09-4.1-923.doc.md
+---
+creatorTool: "Apple Pages 09 4.1 923"
+generatedFrom: text/plain/lorem-ipsum.txt
+---
+
+## /opf-format-corpus/format-corpus/variations/application/pdf/
+
+lorem-ipsum.pdf.md
+--- 
+creatorTool = "Microsoft Word for Mac 2011 14.2.0 120402"
+generatedFrom = text/plain/lorem-ipsum.txt
+---
+
+lorem-ipsum-pages-09-4.1-923.pdf.md
+---
+creatorTool: "Apple Pages 09 4.1 923"
+generatedFrom: text/plain/lorem-ipsum.txt
+---
+
+## /opf-format-corpus/format-corpus/variations/application/rtf/
+
+lorem-ipsum.rtf.md
+--- 
+creatorTool = "Microsoft Word for Mac 2011 14.2.0 120402"
+generatedFrom = text/plain/lorem-ipsum.txt
+---
+
+## /opf-format-corpus/format-corpus/variations/application/x-iwork-pages-sffpages/
+
+---
+aliases: application/vnd.apple.pages
+---
+See http://stackoverflow.com/questions/1454777/apple-iwork-mime-types
+
+## /opf-format-corpus/format-corpus/variations/application/x-iwork-pages-sffpages/09-4.1-923/
+
+lorem-ipsum.pages.md
+---
+creatorTool: "Apple Pages 09 4.1 923"
+generatedFrom: text/plain/lorem-ipsum.txt
+---
+
+### Imagemagick conversion script:
+
+    #!/bin/sh
+
+    # Create an raster version of the text file:
+    cat ../../fmt/text/plain/lorem-ipsum.txt | convert -size 600x caption:@- ../../fmt/image/png/lorem-ipsum.im.png
+
+    # Also create a lossy version, two ways
+    cat ../../fmt/text/plain/lorem-ipsum.txt | convert -size 600x caption:@- ../../fmt/image/jpeg/lorem-ipsum.im.jpg
+    convert ../../fmt/image/png/lorem-ipsum.im.png ../../fmt/image/jpeg/lorem-ipsum.im.png.im.jpg
+
+    convert -version
+
+## /opf-format-corpus/format-corpus/variations/multipart/related/
+
+---
+sameAs: http://en.wikipedia.org/wiki/MHTML
+---
+
+lorem-ipsum.mht.md
+---- 
+creatorTool = "Microsoft Word for Mac 2011 14.2.0 120402"
+generatedFrom = text/plain/lorem-ipsum.txt
+----
+
+## /opf-format-corpus/format-corpus/variations/variations/text/html/4.0/
+
+lorem-ipsum.htm.md
+---- 
+creatorTool = "Microsoft Word for Mac 2011 14.2.0 120402"
+generatedFrom = text/plain/lorem-ipsum.txt
+----
