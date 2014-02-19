@@ -797,4 +797,71 @@ XDCAM EX is a full-resolution HD format. XDCAM HD422 is a
 full-resolution format which uses 4:2:2 chroma subsampling instead of
 4:2:0.
 
+## /opf-format-corpus/format-corpus/office/
 
+### About this folder
+This folder contains samples of various (old) Office formats. There's some overlap with the [*Save as...* corpus](https://github.com/openplanets/format-corpus/tree/master/office-examples), which also contains old Office formats, but merging these two would likely result in some confusion.
+
+## /opf-format-corpus/format-corpus/office/spreadsheet/wk1/
+
+### About these files
+Sample Lotus 1-2-3 files. Files most likely created in Quattro Pro, except PF.WK1 which I'm fairly sure was created in Lotus 1-2-3 (don't know which version).
+
+Incidentally the PF.WK1 file appears to contain some 'hidden' references (in Dutch) to migration in the province of Utrecht, which you only see if you open the file in a Hex editor. Proper next-level weirdness, given that the actual (visible) contents are soil moisture measurements ... 
+
+### License
+All files in this folder: Creative Commons CC0: Public Domain Dedication. See [http://creativecommons.org/publicdomain/zero/1.0/](http://creativecommons.org/publicdomain/zero/1.0/) - To the extent possible under law, Johan van der Knijff has waived all copyright and related or neighboring rights to this work.
+
+## /opf-format-corpus/format-corpus/office/spreadsheet/wk3/
+
+### About these files
+Sample Lotus 1-2-3 files. Files most likely created in Quattro Pro. 
+
+### License
+All files in this folder: Creative Commons CC0: Public Domain Dedication. See [http://creativecommons.org/publicdomain/zero/1.0/](http://creativecommons.org/publicdomain/zero/1.0/) - To the extent possible under law, Johan van der Knijff has waived all copyright and related or neighboring rights to this work.
+
+## /opf-format-corpus/format-corpus/office/spreadsheet/wq1/
+
+### About these files
+Sample Quattro Pro files, created in Quattro Pro (software version unknown). 
+
+### License
+All files in this folder: Creative Commons CC0: Public Domain Dedication. See [http://creativecommons.org/publicdomain/zero/1.0/](http://creativecommons.org/publicdomain/zero/1.0/) - To the extent possible under law, Johan van der Knijff has waived all copyright and related or neighboring rights to this work.
+
+## /opf-format-corpus/format-corpus/office/spreadsheet/wq2/
+
+### About these files
+Sample Quattro Pro files, created in Quattro Pro (software version unknown). 
+
+### License
+All files in this folder: Creative Commons CC0: Public Domain Dedication. See [http://creativecommons.org/publicdomain/zero/1.0/](http://creativecommons.org/publicdomain/zero/1.0/) - To the extent possible under law, Johan van der Knijff has waived all copyright and related or neighboring rights to this work.
+
+## /opf-format-corpus/format-corpus/office/spreadsheet/xls/
+
+## About these files
+Sample MS Excel 97 files, created in MS Excel (software version unknown). 
+
+## License
+All files in this folder: Creative Commons CC0: Public Domain Dedication. See [http://creativecommons.org/publicdomain/zero/1.0/](http://creativecommons.org/publicdomain/zero/1.0/) - To the extent possible under law, Johan van der Knijff has waived all copyright and related or neighboring rights to this work.
+
+## /opf-format-corpus/format-corpus/office/wordprocessing/odt/
+
+### About these files
+ODT files created with LibreOffice. 
+
+
+* *demoLibreOfficeImagePasteBug.odt*: demonstrates LibreOffice's long-running image paste bug that is described here: [http://fileformats.wordpress.com/2012/12/30/openoffice/](http://fileformats.wordpress.com/2012/12/30/openoffice/)
+
+* *demoLibreOfficeImagePastedAsBitmap.odt*: same, but image pasted using *paste as bitmap*, which results in bitmap being embedded. 
+
+
+### License
+All files in this folder: Creative Commons CC0: Public Domain Dedication. See [http://creativecommons.org/publicdomain/zero/1.0/](http://creativecommons.org/publicdomain/zero/1.0/) - To the extent possible under law, Johan van der Knijff has waived all copyright and related or neighboring rights to this work.
+
+## /opf-format-corpus/format-corpus/office/wordprocessing/wpd/
+
+### About these files
+Sample WordPerfect file. From what I remember the version was WordPerfect 6.1 (but not 100% sure).  
+
+### License
+All files in this folder: Creative Commons CC0: Public Domain Dedication. See [http://creativecommons.org/publicdomain/zero/1.0/](http://creativecommons.org/publicdomain/zero/1.0/) - To the extent possible under law, Johan van der Knijff has waived all copyright and related or neighboring rights to this work.
