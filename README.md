@@ -876,21 +876,19 @@ g example PDF files that have been created to use specific format features, e.g.
 
 ## [/opf-format-corpus/format-corpus/office-examples/LibreOffice-3.5.0rc3-OSX/](https://github.com/ross-spencer/opf-format-corpus/tree/master/format-corpus/office-examples/LibreOffice-3.5.0rc3-OSX)
 
----
+**index.md**
+
 application:LibreOffice 3.5.0 OOO350m1(Build:13)
 LibreOffice 3.5.0rc3 
 Build ID: 7e68ba2-a744ebf-1f241b7-c506db1-7d53735
----
 
-simple.odt.md
----
+**simple.odt.md**
+
 generatedFrom:../OpenOffice.org 3.2.0 OSX/pdf-features/simple.odt
----
 
-simple.pdf.md
----
+**simple.pdf.md**
+
 generatedFrom:simple.odf
----
 
 ## [/opf-format-corpus/format-corpus/office-examples/Old-Access/](https://github.com/ross-spencer/opf-format-corpus/tree/master/format-corpus/office-examples/Old-Access)
 
@@ -975,32 +973,29 @@ These are similar files, but with embedded fonts or images.
 
 ## [/opf-format-corpus/format-corpus/office-examples/OpenOffice.org-3.3.0-OSX/](https://github.com/ross-spencer/opf-format-corpus/tree/master/format-corpus/office-examples/OpenOffice.org-3.3.0-OSX)
 
----
+**index.md**
+
 version:OpenOffice.org 3.3.0 OOO330m20(Build:9567)
 os:OSX 10.7.4
----
 
 ## [/opf-format-corpus/format-corpus/office-examples/OpenOffice.org-3.3.0-OSX/pdf-features/](https://github.com/ross-spencer/opf-format-corpus/tree/master/format-corpus/office-examples/OpenOffice.org-3.3.0-OSX)
 
-simple.odt.md
----
+**simple.odt.md**
+
 generatedFrom:../../OpenOffice.org 3.2.0 OSX/pdf-features/simple.odt
 applicationVersion:OpenOffice.org 3.3.0 OOO330m20(Build:9567)
 fmt:odf,puid
-
----
 
 Simple ODT
 ==========
 
 This is a simple ODT file that was created in order to generate some PDF varients.
 
-simple.pdf.md
----
+**simple.pdf.md**
+
 generatedFrom:simple.odt
 exportMenuItem:Export as PDF...
 exportOptions:_default_
----
 
 ## [/opf-format-corpus/format-corpus/office-examples/powerpoint4-mac/](https://github.com/ross-spencer/opf-format-corpus/tree/master/format-corpus/office-examples/powerpoint4-mac)
 
@@ -1050,63 +1045,58 @@ The idea is to fill a MIME Type tree of formats with various representations of 
 
 ## [/opf-format-corpus/format-corpus/variations/application/epub+zip/](https://github.com/ross-spencer/opf-format-corpus/tree/master/format-corpus/variations/application/epub+zip)
 
----
+**lorem-ipsum-pages-09-4.1-923.epub.md**
+
 creatorTool: "Apple Pages 09 4.1 923"
 generatedFrom: text/plain/lorem-ipsum.txt
----
+
 
 ## [/opf-format-corpus/format-corpus/variations/application/msword/](https://github.com/ross-spencer/opf-format-corpus/tree/master/format-corpus/variations/application/msword)
 
-lorem-ipsum.doc.md
---- 
+**lorem-ipsum.doc.md**
+
 creatorTool = "Microsoft Word for Mac 2011 14.2.0 120402"
 generatedFrom = text/plain/lorem-ipsum.txt
----
 
-lorem-ipsum-pages-09-4.1-923.doc.md
----
+**lorem-ipsum-pages-09-4.1-923.doc.md**
+
 creatorTool: "Apple Pages 09 4.1 923"
 generatedFrom: text/plain/lorem-ipsum.txt
----
 
 ## [/opf-format-corpus/format-corpus/variations/application/pdf/](https://github.com/ross-spencer/opf-format-corpus/tree/master/format-corpus/variations/application/pdf)
 
-lorem-ipsum.pdf.md
---- 
+**lorem-ipsum.pdf.md**
+
 creatorTool = "Microsoft Word for Mac 2011 14.2.0 120402"
 generatedFrom = text/plain/lorem-ipsum.txt
----
 
-lorem-ipsum-pages-09-4.1-923.pdf.md
----
+**lorem-ipsum-pages-09-4.1-923.pdf.md**
+
 creatorTool: "Apple Pages 09 4.1 923"
 generatedFrom: text/plain/lorem-ipsum.txt
----
 
 ## [/opf-format-corpus/format-corpus/variations/application/rtf/](https://github.com/ross-spencer/opf-format-corpus/tree/master/format-corpus/variations/application/rtf)
 
-lorem-ipsum.rtf.md
---- 
+**lorem-ipsum.rtf.md**
+
 creatorTool = "Microsoft Word for Mac 2011 14.2.0 120402"
 generatedFrom = text/plain/lorem-ipsum.txt
----
 
 ## [/opf-format-corpus/format-corpus/variations/application/x-iwork-pages-sffpages/](https://github.com/ross-spencer/opf-format-corpus/tree/master/format-corpus/variations/application/x-iwork-pages/sffpages)
 
----
-aliases: application/vnd.apple.pages
----
+**aliases:** application/vnd.apple.pages
+
 See http://stackoverflow.com/questions/1454777/apple-iwork-mime-types
 
 ## [/opf-format-corpus/format-corpus/variations/application/x-iwork-pages-sffpages/09-4.1-923/](https://github.com/ross-spencer/opf-format-corpus/tree/master/format-corpus/variations/application/x-iwork-pages-sffpages/09-4.1-923)
 
-lorem-ipsum.pages.md
----
+**lorem-ipsum.pages.md**
+
 creatorTool: "Apple Pages 09 4.1 923"
 generatedFrom: text/plain/lorem-ipsum.txt
----
 
-### Imagemagick conversion script:
+
+    ### Imagemagick conversion script:
 
     #!/bin/sh
 
@@ -1121,20 +1111,17 @@ generatedFrom: text/plain/lorem-ipsum.txt
 
 ## [/opf-format-corpus/format-corpus/variations/multipart/related/](https://github.com/ross-spencer/opf-format-corpus/tree/master/format-corpus/variations/multipart/related)
 
----
-sameAs: http://en.wikipedia.org/wiki/MHTML
----
+**sameAs: http://en.wikipedia.org/wiki/MHTML**
 
-lorem-ipsum.mht.md
----- 
+**lorem-ipsum.mht.md**
+
 creatorTool = "Microsoft Word for Mac 2011 14.2.0 120402"
 generatedFrom = text/plain/lorem-ipsum.txt
-----
+
 
 ## [/opf-format-corpus/format-corpus/variations/variations/text/html/4.0/](https://github.com/ross-spencer/opf-format-corpus/tree/master/format-corpus/variations/text/html/4.0)
 
-lorem-ipsum.htm.md
----- 
+**lorem-ipsum.htm.md**
+
 creatorTool = "Microsoft Word for Mac 2011 14.2.0 120402"
 generatedFrom = text/plain/lorem-ipsum.txt
-----
