@@ -633,7 +633,7 @@ This appears to be a single folder with two files, wrapped up as a tar.gz. If yo
 
 Generated from [Curator outline 3.nmind].
 
-## /opf-format-corpus/format-corpus/pcraster/
+## [/opf-format-corpus/format-corpus/pcraster/](https://github.com/ross-spencer/opf-format-corpus/tree/master/format-corpus/pcraster)
 
 ### About these files
 Sample PCRaster (CSF) 2 maps.
