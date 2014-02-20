@@ -1,5 +1,5 @@
-format-corpus
-=============
+opf-format-corpus
+=================
 
 An openly-licensed corpus of small example files, covering a wide range of formats and creation tools.
 
@@ -7,20 +7,25 @@ All items, apart from the source code under 'tools', is CC0 licenced unless othe
 
 A recent summary of the contents of the repository can be found [here](http://www.opf-labs.org/format-corpus/tools/coverage/reports/).
 
-##NOTE: This is a remix of the OPF Format Corpus: https://github.com/openplanets/format-corpus
-##The purpose of doing this is to allow the format-corpus portion of the repository to be used
-##as a corpus for baselining, for enabling re-creation of digital preservation trials and 
-##experiments without the pollution of files meant as readmes, indexes or github functionality.
-
-##TODO: /variations/
+**NOTE: This is a remix of the OPF Format Corpus:** https://github.com/openplanets/format-corpus
 
 How to Contribute
 =================
 
 See http://wiki.curatecamp.org/index.php/Collecting_format_ID_test_files for more information.
 
-See [metadata-template.ext.md](https://github.com/openplanets/format-corpus/blob/master/metadata-template.ext.md) for a simple per-file metadata template.
+The index can be augmented, and given more value with descriptions of the files uploaded by contributors, using the following template:
 
+    formatName: 
+    formatVersion: 
+    extensions: 
+    mimeType: 
+    mimeTypeAliases: 
+    pronomId: 
+    xmlNameSpace: 
+    creatorTool: 
+    creatorToolUrl: 
+    formatSpecUrl:  
 
 Pooled Signatures
 =================
@@ -34,20 +39,19 @@ As well as pooling example files, we also pool format signatures:
 More details here: http://wiki.curatecamp.org/index.php/Improving_format_ID_coverage
 
 =================
-=================
 
-# Index
+# File Index
 
-## /opf-format-corpus/format-corpus/ebooks/calibre-0.9.0/
+## [/opf-format-corpus/format-corpus/ebooks/calibre-0.9.0/](https://github.com/ross-spencer/opf-format-corpus/tree/master/format-corpus/ebooks/calibre-0.9.0)
 
 This time, I looked in the app setting and installed the command line tools. This includes 'ebook-convert', which I can then use to generate the varations.
 
-## /opf-format-corpus/format-corpus/file-archive/
+## [/opf-format-corpus/format-corpus/file-archive/](https://github.com/ross-spencer/opf-format-corpus/tree/master/format-corpus/file-archive)
 
 ### About this folder
 This folder contains example files for a variety of file archive formats (i.e. container/compression formats such as the ones listed here: [http://en.wikipedia.org/wiki/List_of_archive_formats](http://en.wikipedia.org/wiki/List_of_archive_formats). 
 
-## /opf-format-corpus/format-corpus/file-archive/arj/
+## [/opf-format-corpus/format-corpus/file-archive/arj/](https://github.com/ross-spencer/opf-format-corpus/tree/master/format-corpus/file-archive/arj)
 
 ---
 * formatName: ARJ (**A**rchived by **R**obert **J**ung) archive 
@@ -66,7 +70,7 @@ This folder contains example files for a variety of file archive formats (i.e. c
 ### License
 All files in this folder: Creative Commons CC0: Public Domain Dedication. See [http://creativecommons.org/publicdomain/zero/1.0/](http://creativecommons.org/publicdomain/zero/1.0/) - To the extent possible under law, Johan van der Knijff has waived all copyright and related or neighboring rights to this work.
 
-## /opf-format-corpus/format-corpus/filesys-trials/
+## [/opf-format-corpus/format-corpus/filesys-trials/](https://github.com/ross-spencer/opf-format-corpus/tree/master/format-corpus/filesys-trials)
 
 A home for mostly empty files.  The idea is to collect the files, file paths and names that tend to break tools. There's an empty file, GitHub doesn't support the empty dir. I'll be structuring as I go, the names and folder structures should be descriptive, but feel free to add your own collections sub-collections.
  
@@ -83,7 +87,7 @@ a-bad-path
 
 Like the name says, a home for all path related issues.  Long paths, silly characters, and so on.  There may be some issues with GitHub accepting certain names and paths but we'll see.
 
-## /opf-format-corpus/format-corpus/govdocs1-error-pdfs/
+## [/opf-format-corpus/format-corpus/govdocs1-error-pdfs/](https://github.com/ross-spencer/opf-format-corpus/tree/master/format-corpus/govdocs1-error-pdfs)
 
 ### PDF files from Govdocs1 that may cause errors
 
@@ -112,7 +116,7 @@ More information about these files can be found at [http://digitalcorpora.org/co
 > Farrell, Roussev and Dinolt, Bringing Science to Digital Forensics with Standardized Forensic 
 > Corpora, DFRWS 2009, Montreal, Canada
 
-## /opf-format-corpus/format-corpus/jp2k-formats/
+## [/opf-format-corpus/format-corpus/jp2k-formats/](https://github.com/ross-spencer/opf-format-corpus/tree/master/format-corpus/jp2k-formats)
 
 ### Contents of this folder
 
@@ -162,8 +166,6 @@ Public Domain.
 [IrfanView]:http://www.irfanview.com/
 [OpenJPEG]:http://www.openjpeg.org/
 
-
-
 [sampleJP2]:https://github.com/bitsgalore/jp2kMagic/tree/master/sampleImages/balloon.jp2
 [sampleJPX]:https://github.com/bitsgalore/jp2kMagic/tree/master/sampleImages/balloon.jpf
 [sampleJPM]:https://github.com/bitsgalore/jp2kMagic/tree/master/sampleImages/balloon.jpm
@@ -175,7 +177,7 @@ Public Domain.
 [magicUncompiled]:https://github.com/bitsgalore/jp2kMagic/tree/master/magic/jpeg2000Magic
 [magicCompiled]:https://github.com/bitsgalore/jp2kMagic/tree/master/magic/jpeg2000Magic.mgc
 
-## /opf-format-corpus/format-corpus/jp2k-test/
+## [/opf-format-corpus/format-corpus/jp2k-test/](https://github.com/ross-spencer/opf-format-corpus/tree/master/format-corpus/jp2k-test)
 
 ### Contents
 This folder contains a small test corpus of *JPEG 2000* (Part 1 and Part 2) images. 
@@ -189,7 +191,6 @@ All images were compressed lossily at a ratio of about 45:1. Encoding options (t
 [*Jpylyzer*][jpylyzer] output files are *NOT* included for each image (note that these are best viewed in an *XML* editor as they are not pretty-printed). 
  
 The table below gives a description of the dataset:
-
 
 <table border=1 cellspacing=0 cellpadding=10 width=841
 >
@@ -516,7 +517,6 @@ the creator application!!!!!
 </tr>
 </table>
 
-
 ###Image attribution and provenance
 
 All images are derived from the following source image: 
@@ -531,7 +531,6 @@ Resolution fields and ICC profile were added specifically to demonstrate how the
 
 ![](https://raw.github.com/openplanets/format-corpus/master/jp2k-test/diagram.png)
 
-
 [jpylyzer]: http://www.openplanetsfoundation.org/software/jpylyzer
 [Aware]:http://www.aware.com/imaging/jpeg2000sdk.html
 [Kakadu]:http://www.kakadusoftware.com/
@@ -539,7 +538,6 @@ Resolution fields and ICC profile were added specifically to demonstrate how the
 [IrfanView]:http://www.irfanview.com/
 [OpenJPEG]:http://www.openjpeg.org/
 [GraphicMagick]:http://www.graphicsmagick.org/
-
 
 [sampleJP2]:https://github.com/bitsgalore/jp2kMagic/tree/master/sampleImages/balloon.jp2
 [sampleJPX]:https://github.com/bitsgalore/jp2kMagic/tree/master/sampleImages/balloon.jpf
@@ -549,7 +547,7 @@ Resolution fields and ICC profile were added specifically to demonstrate how the
 [sampleImages]:https://github.com/bitsgalore/jp2kMagic/tree/master/sampleImages/
 [magic]:https://github.com/bitsgalore/jp2kMagic/tree/master/magic/
 
-## /opf-format-corpus/format-corpus/knowledge-managent/concept-draw/
+## [/opf-format-corpus/format-corpus/knowledge-management/concept-draw/](https://github.com/ross-spencer/opf-format-corpus/tree/master/format-corpus/knowledge-management/concept-draw)
 
 filename	To Do.cdd
 formatName:	ConceptDraw
@@ -564,7 +562,7 @@ creatorToolUrl:	http://www.conceptdraw.com/
 formatSpecUrl:	
 comments	Created in 2005 with a trial version of ConceptDraw
 
-## /opf-format-corpus/format-corpus/knowledge-managent/mind-manager/
+## [/opf-format-corpus/format-corpus/knowledge-managent/mind-manager/](https://github.com/ross-spencer/opf-format-corpus/tree/master/format-corpus/knowledge-management/mind-manager)
 
 filename	copac-uknuc.mmp
 formatName:	Mind Manager
@@ -605,7 +603,7 @@ creatorToolUrl:
 formatSpecUrl:	
 comments	Image file created as the XML derivative was made
 
-## /opf-format-corpus/format-corpus/knowledge-managent/nova-mind/
+## [/opf-format-corpus/format-corpus/knowledge-managent/nova-mind/](https://github.com/ross-spencer/opf-format-corpus/tree/master/format-corpus/knowledge-management/nova-mind)
 
 ### Curation outline 3.nmind
 ---
@@ -643,10 +641,9 @@ Sample PCRaster (CSF) 2 maps.
 ### License
 All files in this folder: Creative Commons CC0: Public Domain Dedication. See [http://creativecommons.org/publicdomain/zero/1.0/](http://creativecommons.org/publicdomain/zero/1.0/) - To the extent possible under law, Johan van der Knijff has waived all copyright and related or neighboring rights to this work.
 
-## /opf-format-corpus/format-corpus/pdfCabinetOfHorrors/
+## [/opf-format-corpus/format-corpus/pdfCabinetOfHorrors/](https://github.com/ross-spencer/opf-format-corpus/tree/master/format-corpus/pdfCabinetOfHorrors)
 
 ###The Archivist's PDF Cabinet of Horrors 
-
 
 #### About these files
 Test *PDF* files, created for detecting *PDF* features that are undesired in archival settings. Most of these files were originally created in Microsoft Word 2003, and then converted to *PDF* with Adobe Acrobat Professional 9.5.2. The source Word files are included here as well, but in many cases the *PDFs* required further processing in Acrobat (e.g. embedding videos, attaching files, encryption) so they're probably not that useful.
@@ -681,9 +678,8 @@ Here's a more detailed description of the files (arranged by feature class(es)):
 + **text\_only\_pdfa1b.pdf** - *PDF/A-1a* (with embedded fonts)
 + **test\_fontArialNotEmbedded.pdf** - <del>font *Arial*</del> fonts *Arial* and *Times New Roman*  <del>is</del> are not embedded
 
-
 #####File attachments
-+ **fileAttachment.pdf** - contains a document-level file attachment (an oldskool Quattro Pro spreadsheet, no less!) that is defined using an *EmbeddedFiles* entry in the document’s name dictionary
++ **fileAttachment.pdf** - contains a document-level file attachment (an oldskool Quattro Pro spreadsheet, no less!) that is defined using an *EmbeddedFiles* entry in the documentï¿½s name dictionary
 + **fileAttachment_fileAttachmentAnnotation.pdf** - contains a page-level file attachment that is defined using a *File Attachment Annotation*
 
 #####External references
@@ -699,7 +695,7 @@ Here's a more detailed description of the files (arranged by feature class(es)):
 ####License
 All files in this folder: Creative Commons CC0: Public Domain Dedication. See [http://creativecommons.org/publicdomain/zero/1.0/](http://creativecommons.org/publicdomain/zero/1.0/)
 
-## /opf-format-corpus/format-corpus/statistica/
+## [/opf-format-corpus/format-corpus/statistica/](https://github.com/ross-spencer/opf-format-corpus/tree/master/format-corpus/statistica)
 
 ### About these files
 Sample Statsoft Statistica files. Created in Statsoft Statistica for Windows, exact version unknown (might be 4 or 5).  
@@ -707,7 +703,7 @@ Sample Statsoft Statistica files. Created in Statsoft Statistica for Windows, ex
 ### License
 All files in this folder: Creative Commons CC0: Public Domain Dedication. See [http://creativecommons.org/publicdomain/zero/1.0/](http://creativecommons.org/publicdomain/zero/1.0/) - To the extent possible under law, Johan van der Knijff has waived all copyright and related or neighboring rights to this work.
 
-## /opf-format-corpus/format-corpus/tiff-examples/NANETH_8bpp_grayscale/
+## [/opf-format-corpus/format-corpus/tiff-examples/NANETH_8bpp_grayscale/](https://github.com/ross-spencer/opf-format-corpus/tree/master/format-corpus/tiff-examples/NANETH_8bpp_grayscale)
 
 ---
 * formatName: TIFF (Exchangeable Image File Format (Uncompressed), EXIF Uncompressed Image 2.2 (little-endian, EXIF near BOF))
@@ -741,7 +737,7 @@ http://www.beeldenvoordetoekomst.nl/en/
 License: CC BY-NC-SA 3.0
 http://creativecommons.org/licenses/by-nc-sa/3.0/
 
-## /opf-format-corpus/format-corpus/video/Quicktime/
+## [/opf-format-corpus/format-corpus/video/Quicktime/](https://github.com/ross-spencer/opf-format-corpus/tree/master/format-corpus/video/Quicktime)
 
 Apple Quicktime video codecs
 ============================
@@ -797,12 +793,12 @@ XDCAM EX is a full-resolution HD format. XDCAM HD422 is a
 full-resolution format which uses 4:2:2 chroma subsampling instead of
 4:2:0.
 
-## /opf-format-corpus/format-corpus/office/
+## [/opf-format-corpus/format-corpus/office/](https://github.com/ross-spencer/opf-format-corpus/tree/master/format-corpus/office)
 
 ### About this folder
-This folder contains samples of various (old) Office formats. There's some overlap with the [*Save as...* corpus](https://github.com/openplanets/format-corpus/tree/master/office-examples), which also contains old Office formats, but merging these two would likely result in some confusion.
+This folder contains samples of various (old) Office formats. There's some overlap with the [*Save as...* corpus](https://github.com/ross-spencer/opf-format-corpus/tree/master/format-corpus/office-examples), which also contains old Office formats, but merging these two would likely result in some confusion.
 
-## /opf-format-corpus/format-corpus/office/spreadsheet/wk1/
+## [/opf-format-corpus/format-corpus/office/spreadsheet/wk1/](https://github.com/ross-spencer/opf-format-corpus/tree/master/format-corpus/office/spreadsheet/wk1)
 
 ### About these files
 Sample Lotus 1-2-3 files. Files most likely created in Quattro Pro, except PF.WK1 which I'm fairly sure was created in Lotus 1-2-3 (don't know which version).
@@ -812,7 +808,7 @@ Incidentally the PF.WK1 file appears to contain some 'hidden' references (in Dut
 ### License
 All files in this folder: Creative Commons CC0: Public Domain Dedication. See [http://creativecommons.org/publicdomain/zero/1.0/](http://creativecommons.org/publicdomain/zero/1.0/) - To the extent possible under law, Johan van der Knijff has waived all copyright and related or neighboring rights to this work.
 
-## /opf-format-corpus/format-corpus/office/spreadsheet/wk3/
+## [/opf-format-corpus/format-corpus/office/spreadsheet/wk3/](https://github.com/ross-spencer/opf-format-corpus/tree/master/format-corpus/office/spreadsheet/wk3)
 
 ### About these files
 Sample Lotus 1-2-3 files. Files most likely created in Quattro Pro. 
@@ -820,7 +816,7 @@ Sample Lotus 1-2-3 files. Files most likely created in Quattro Pro.
 ### License
 All files in this folder: Creative Commons CC0: Public Domain Dedication. See [http://creativecommons.org/publicdomain/zero/1.0/](http://creativecommons.org/publicdomain/zero/1.0/) - To the extent possible under law, Johan van der Knijff has waived all copyright and related or neighboring rights to this work.
 
-## /opf-format-corpus/format-corpus/office/spreadsheet/wq1/
+## [/opf-format-corpus/format-corpus/office/spreadsheet/wq1/](https://github.com/ross-spencer/opf-format-corpus/tree/master/format-corpus/office/spreadsheet/wq1)
 
 ### About these files
 Sample Quattro Pro files, created in Quattro Pro (software version unknown). 
@@ -828,7 +824,7 @@ Sample Quattro Pro files, created in Quattro Pro (software version unknown).
 ### License
 All files in this folder: Creative Commons CC0: Public Domain Dedication. See [http://creativecommons.org/publicdomain/zero/1.0/](http://creativecommons.org/publicdomain/zero/1.0/) - To the extent possible under law, Johan van der Knijff has waived all copyright and related or neighboring rights to this work.
 
-## /opf-format-corpus/format-corpus/office/spreadsheet/wq2/
+## [/opf-format-corpus/format-corpus/office/spreadsheet/wq2/](https://github.com/ross-spencer/opf-format-corpus/tree/master/format-corpus/office/spreadsheet/wq2)
 
 ### About these files
 Sample Quattro Pro files, created in Quattro Pro (software version unknown). 
@@ -836,7 +832,7 @@ Sample Quattro Pro files, created in Quattro Pro (software version unknown).
 ### License
 All files in this folder: Creative Commons CC0: Public Domain Dedication. See [http://creativecommons.org/publicdomain/zero/1.0/](http://creativecommons.org/publicdomain/zero/1.0/) - To the extent possible under law, Johan van der Knijff has waived all copyright and related or neighboring rights to this work.
 
-## /opf-format-corpus/format-corpus/office/spreadsheet/xls/
+## [/opf-format-corpus/format-corpus/office/spreadsheet/xls/](https://github.com/ross-spencer/opf-format-corpus/tree/master/format-corpus/office/spreadsheet/xls)
 
 ## About these files
 Sample MS Excel 97 files, created in MS Excel (software version unknown). 
@@ -844,21 +840,19 @@ Sample MS Excel 97 files, created in MS Excel (software version unknown).
 ## License
 All files in this folder: Creative Commons CC0: Public Domain Dedication. See [http://creativecommons.org/publicdomain/zero/1.0/](http://creativecommons.org/publicdomain/zero/1.0/) - To the extent possible under law, Johan van der Knijff has waived all copyright and related or neighboring rights to this work.
 
-## /opf-format-corpus/format-corpus/office/wordprocessing/odt/
+## [/opf-format-corpus/format-corpus/office/wordprocessing/odt/](https://github.com/ross-spencer/opf-format-corpus/tree/master/format-corpus/office/wordprocessing/odt)
 
 ### About these files
 ODT files created with LibreOffice. 
-
 
 * *demoLibreOfficeImagePasteBug.odt*: demonstrates LibreOffice's long-running image paste bug that is described here: [http://fileformats.wordpress.com/2012/12/30/openoffice/](http://fileformats.wordpress.com/2012/12/30/openoffice/)
 
 * *demoLibreOfficeImagePastedAsBitmap.odt*: same, but image pasted using *paste as bitmap*, which results in bitmap being embedded. 
 
-
 ### License
 All files in this folder: Creative Commons CC0: Public Domain Dedication. See [http://creativecommons.org/publicdomain/zero/1.0/](http://creativecommons.org/publicdomain/zero/1.0/) - To the extent possible under law, Johan van der Knijff has waived all copyright and related or neighboring rights to this work.
 
-## /opf-format-corpus/format-corpus/office/wordprocessing/wpd/
+## [/opf-format-corpus/format-corpus/office/wordprocessing/wpd/](https://github.com/ross-spencer/opf-format-corpus/tree/master/format-corpus/office/wordprocessing/wpd)
 
 ### About these files
 Sample WordPerfect file. From what I remember the version was WordPerfect 6.1 (but not 100% sure).  
@@ -866,7 +860,7 @@ Sample WordPerfect file. From what I remember the version was WordPerfect 6.1 (b
 ### License
 All files in this folder: Creative Commons CC0: Public Domain Dedication. See [http://creativecommons.org/publicdomain/zero/1.0/](http://creativecommons.org/publicdomain/zero/1.0/) - To the extent possible under law, Johan van der Knijff has waived all copyright and related or neighboring rights to this work.
 
-## /opf-format-corpus/format-corpus/office-examples/
+## [/opf-format-corpus/format-corpus/office-examples/](https://github.com/ross-spencer/opf-format-corpus/tree/master/format-corpus/office-examples)
 
 The Save As... Corpus
 =====================
@@ -880,7 +874,7 @@ Format Features
 Of course, this is a helpful way of exploring the various features and options that different formats can support. For example, using this approach, we can easily generate a test corpus containinA
 g example PDF files that have been created to use specific format features, e.g. different types of encyption.
 
-## /opf-format-corpus/format-corpus/office-examples/LibreOffice-3.5.0rc3-OSX/
+## [/opf-format-corpus/format-corpus/office-examples/LibreOffice-3.5.0rc3-OSX/](https://github.com/ross-spencer/opf-format-corpus/tree/master/format-corpus/office-examples/LibreOffice-3.5.0rc3-OSX)
 
 ---
 application:LibreOffice 3.5.0 OOO350m1(Build:13)
@@ -898,7 +892,7 @@ simple.pdf.md
 generatedFrom:simple.odf
 ---
 
-## /opf-format-corpus/format-corpus/office-examples/Old-Access/
+## [/opf-format-corpus/format-corpus/office-examples/Old-Access/](https://github.com/ross-spencer/opf-format-corpus/tree/master/format-corpus/office-examples/Old-Access)
 
 filename	reviews.mdb
 formatName:	Ms Access
@@ -926,7 +920,7 @@ creatorToolUrl:
 formatSpecUrl:	
 comments	Excel equivalent saved by MS Access
 
-## /opf-format-corpus/format-corpus/office-examples/Old-Word-file/
+## [/opf-format-corpus/format-corpus/office-examples/Old-Word-file/](https://github.com/ross-spencer/opf-format-corpus/tree/master/format-corpus/office-examples/Old-Word-file)
 
 filename	NEWSSLID.DOC
 formatName:	MS Word (old)
@@ -941,7 +935,7 @@ creatorToolUrl:
 formatSpecUrl:	
 comments	This file was created in about 1993 with a current version of Winword (5?) on Win3.1
 
-## /opf-format-corpus/format-corpus/office-examples/OpenOffice.org-3.2.0-OSX/
+## [/opf-format-corpus/format-corpus/office-examples/OpenOffice.org-3.2.0-OSX/](https://github.com/ross-spencer/opf-format-corpus/tree/master/format-corpus/office-examples/OpenOffice.org-3.2.0-OSX)
 
 Test files generated from OpenOffice 3.2
 ========================================
@@ -979,14 +973,14 @@ These are similar files, but with embedded fonts or images.
 * embedded-tiff.odt
 * embedded-tiff.pdf
 
-## /opf-format-corpus/format-corpus/office-examples/OpenOffice.org-3.3.0-OSX/
+## [/opf-format-corpus/format-corpus/office-examples/OpenOffice.org-3.3.0-OSX/](https://github.com/ross-spencer/opf-format-corpus/tree/master/format-corpus/office-examples/OpenOffice.org-3.3.0-OSX)
 
 ---
 version:OpenOffice.org 3.3.0 OOO330m20(Build:9567)
 os:OSX 10.7.4
 ---
 
-## /opf-format-corpus/format-corpus/office-examples/OpenOffice.org-3.3.0-OSX/pdf-features/
+## [/opf-format-corpus/format-corpus/office-examples/OpenOffice.org-3.3.0-OSX/pdf-features/](https://github.com/ross-spencer/opf-format-corpus/tree/master/format-corpus/office-examples/OpenOffice.org-3.3.0-OSX)
 
 simple.odt.md
 ---
@@ -1008,27 +1002,25 @@ exportMenuItem:Export as PDF...
 exportOptions:_default_
 ---
 
-## /opf-format-corpus/format-corpus/office-examples/powerpoint4-mac/
+## [/opf-format-corpus/format-corpus/office-examples/powerpoint4-mac/](https://github.com/ross-spencer/opf-format-corpus/tree/master/format-corpus/office-examples/powerpoint4-mac)
 
 ecdl paris.ppt:  CDF V2 Document, Little Endian, Os: MacOS, Version 7.85, Title: UK Electronic Libraries Program (eLib), Author: Chris Rusbridge, Template: FIGIT 2:Microsoft Office:Microsoft PowerPoint 4:Templates:Color Overheads:dbllinec.ppt - Double Lines, Last Saved By: Chris Rusbridge, Revision Number: 6, Last Printed: Wed Apr 15 16:01:41 1998, Create Time/Date: Mon Sep 20 13:30:53 1999, Last Saved Time/Date: Wed Sep 22 18:46:09 1999, Number of Pages: 16, Name of Creating Application: Microsoft PowerPoint 4.0
 unc- oxford.ppt: CDF V2 Document, Little Endian, Os: MacOS, Version 7.85, Title: UNC presentation, Author: Chris Rusbridge, Template: FIGIT 2:Microsoft Office:Microsoft PowerPoint 4:Templates:Color Overheads:dbllinec.ppt - Double Lines, Last Saved By: Chris Rusbridge, Revision Number: 4, Last Printed: Thu May 14 15:01:35 1998, Create Time/Date: Thu May 14 10:49:20 1998, Last Saved Time/Date: Thu May 14 15:16:26 1998, Number of Pages: 38, Name of Creating Application: Microsoft PowerPoint 4.0
 
-
 Original files are PowerPoint 4. (application/vnd.ms-powerpoint; version=4.0)
 
 Files ending '2001.ppt' were converted to the newer binary format using PowerPoint for Mac 2001 (on OS version 10.2.8, 800 MHZ PowerPC G4). See below.
-
 
 Migration of PowerPoint for Mac 4 files
 ---------------------------------------
  
 Chris Rusbridge has a collection of .ppt files created several years ago with Office for Mac 4 and has found himself unable to open these files to assess their personal value.
  
-Coincidentally, in the course of my recent research as The National Archives’ File Format Signature Developer, I looked at Office for Mac formats, and found that, while Excel and Word documents had a common format with their Windows counterparts, PowerPoint files versions 3 and 4 did not.
+Coincidentally, in the course of my recent research as The National Archivesï¿½ File Format Signature Developer, I looked at Office for Mac formats, and found that, while Excel and Word documents had a common format with their Windows counterparts, PowerPoint files versions 3 and 4 did not.
  
 At The National Archives, we hold a sizeable software library and a 2000~ era iMac running OSX (OS version 10.2.8, 800 MHZ PowerPC G4), so, as an exercise in file format migration, I decided to attempt to make these files readable. The trade-off is that this provides me with some real samples of PowerPoint for Mac 4, from which to attempt to derive a format signature.
  
-I installed PowerPoint for Mac 2001 and attempted to open the files. The application briefly displayed a message along the lines of ‘Updating from earlier version’. Once complete I then saved the files as native Office for Mac 2001 .ppt, which my research suggests is identical to the Windows .ppt 1997-2003 versions
+I installed PowerPoint for Mac 2001 and attempted to open the files. The application briefly displayed a message along the lines of ï¿½Updating from earlier versionï¿½. Once complete I then saved the files as native Office for Mac 2001 .ppt, which my research suggests is identical to the Windows .ppt 1997-2003 versions
  
 I then transferred the files to my Windows XP system, running Office 2007, and found that the files were able to be opened fully.
  
@@ -1047,7 +1039,7 @@ License
   this work.
 </p>
 
-## /opf-format-corpus/format-corpus/variations/
+## [/opf-format-corpus/format-corpus/variations/](https://github.com/ross-spencer/opf-format-corpus/tree/master/format-corpus/variations]
 
 Variation Itself - Variations on Lorem Ipsum
 ============================================
@@ -1056,14 +1048,14 @@ This set of test documents starts with a simple text file containing some Lorem 
 
 The idea is to fill a MIME Type tree of formats with various representations of the original text document. Documentation on software and scripts used to generate the images can be stored in the sfw folder, but the notion would be that the most critical data about how the item was created would be held in per-item metadata files under the fmt tree.
 
-## /opf-format-corpus/format-corpus/variations/application/epub+zip/
+## [/opf-format-corpus/format-corpus/variations/application/epub+zip/](https://github.com/ross-spencer/opf-format-corpus/tree/master/format-corpus/variations/application/epub+zip)
 
 ---
 creatorTool: "Apple Pages 09 4.1 923"
 generatedFrom: text/plain/lorem-ipsum.txt
 ---
 
-## /opf-format-corpus/format-corpus/variations/application/msword/
+## [/opf-format-corpus/format-corpus/variations/application/msword/](https://github.com/ross-spencer/opf-format-corpus/tree/master/format-corpus/variations/application/msword)
 
 lorem-ipsum.doc.md
 --- 
@@ -1077,7 +1069,7 @@ creatorTool: "Apple Pages 09 4.1 923"
 generatedFrom: text/plain/lorem-ipsum.txt
 ---
 
-## /opf-format-corpus/format-corpus/variations/application/pdf/
+## [/opf-format-corpus/format-corpus/variations/application/pdf/](https://github.com/ross-spencer/opf-format-corpus/tree/master/format-corpus/variations/application/pdf)
 
 lorem-ipsum.pdf.md
 --- 
@@ -1091,7 +1083,7 @@ creatorTool: "Apple Pages 09 4.1 923"
 generatedFrom: text/plain/lorem-ipsum.txt
 ---
 
-## /opf-format-corpus/format-corpus/variations/application/rtf/
+## [/opf-format-corpus/format-corpus/variations/application/rtf/](https://github.com/ross-spencer/opf-format-corpus/tree/master/format-corpus/variations/application/rtf)
 
 lorem-ipsum.rtf.md
 --- 
@@ -1099,14 +1091,14 @@ creatorTool = "Microsoft Word for Mac 2011 14.2.0 120402"
 generatedFrom = text/plain/lorem-ipsum.txt
 ---
 
-## /opf-format-corpus/format-corpus/variations/application/x-iwork-pages-sffpages/
+## [/opf-format-corpus/format-corpus/variations/application/x-iwork-pages-sffpages/](https://github.com/ross-spencer/opf-format-corpus/tree/master/format-corpus/variations/application/x-iwork-pages/sffpages)
 
 ---
 aliases: application/vnd.apple.pages
 ---
 See http://stackoverflow.com/questions/1454777/apple-iwork-mime-types
 
-## /opf-format-corpus/format-corpus/variations/application/x-iwork-pages-sffpages/09-4.1-923/
+## [/opf-format-corpus/format-corpus/variations/application/x-iwork-pages-sffpages/09-4.1-923/](https://github.com/ross-spencer/opf-format-corpus/tree/master/format-corpus/variations/application/x-iwork-pages-sffpages/09-4.1-923)
 
 lorem-ipsum.pages.md
 ---
@@ -1127,7 +1119,7 @@ generatedFrom: text/plain/lorem-ipsum.txt
 
     convert -version
 
-## /opf-format-corpus/format-corpus/variations/multipart/related/
+## [/opf-format-corpus/format-corpus/variations/multipart/related/](https://github.com/ross-spencer/opf-format-corpus/tree/master/format-corpus/variations/multipart/related)
 
 ---
 sameAs: http://en.wikipedia.org/wiki/MHTML
@@ -1139,7 +1131,7 @@ creatorTool = "Microsoft Word for Mac 2011 14.2.0 120402"
 generatedFrom = text/plain/lorem-ipsum.txt
 ----
 
-## /opf-format-corpus/format-corpus/variations/variations/text/html/4.0/
+## [/opf-format-corpus/format-corpus/variations/variations/text/html/4.0/](https://github.com/ross-spencer/opf-format-corpus/tree/master/format-corpus/variations/text/html/4.0)
 
 lorem-ipsum.htm.md
 ---- 
